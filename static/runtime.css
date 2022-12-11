@@ -35,38 +35,3 @@ a.github-badge:hover:before {
   padding: 10px;
   background-color: var(--text-bg-hover);
 }
-[data-theme=dark] a.github-badge:hover:before {
-  background-color: rgba(18,18,18,0.8);
-}
-@-moz-keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
-}
-@-webkit-keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
-}
-@-o-keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
-}
-@keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
-}
